@@ -1,0 +1,59 @@
+.blog-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    &:nth-child(odd) {
+        flex-direction: row-reverse;
+    };
+    
+}
+
+.blog-item__img img{
+    width: 480px;
+}
+
+.blog-item-content {
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.blog-item-content__title {
+
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.blog-item-content__decs {
+    
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.9;
+    color: #555;
+    font-family: 'Lato', serif;
+
+}
+
+.blog-item-content__btn {
+    border: 1px solid #fbb313;
+    margin: 0 auto;
+    padding: 15px 25px;
+    width: 150px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.blog-item-content__btn a {
+    color: black;
+    &:hover, &:active, &:focus {
+        cursor: pointer;
+        text-decoration: none;
+    }
+}

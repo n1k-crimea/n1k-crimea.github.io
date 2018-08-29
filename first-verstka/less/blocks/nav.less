@@ -1,0 +1,33 @@
+.nav-wrapper {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 20px;
+    font-family: 'Lato', serif;
+}
+
+.logo img{
+    width: 120px;
+}
+
+.nav__item {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    margin-right: 70px;
+    text-decoration: none;
+    color: rgb(129, 129, 129);
+    &--active,
+    &:active, &:hover, &:focus {
+        color: #fbb313;
+        text-decoration: none;
+    };
+    &:last-child {
+        margin-right: auto;
+    };
+
+}
