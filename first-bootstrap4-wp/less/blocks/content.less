@@ -1,0 +1,40 @@
+.content {
+	font-size: 16px;
+	text-align: justify;
+	line-height: 1.4;
+}
+
+.btn__content {
+	border-bottom: 3px solid darken(@active-color, 10%);
+}
+
+.object-rotator {
+	margin-top: 30px;
+}
+
+.object-item {
+	background-color: @body-color;
+	
+	height: 220px;
+	background-image: url("../../img/img.png");
+	background-position:  bottom 0 left 0;
+	background-repeat: no-repeat;
+	&:hover {
+		a {
+			text-decoration: underline;
+		}
+	}
+}
+
+.object-item a {
+	text-decoration: none;
+	color: @active-color;
+}
+
+.object-item__title {
+	width: 80%;
+	padding-top: 10px;
+	margin: 0 auto;
+	text-align: center;
+	color: @active-color;
+}

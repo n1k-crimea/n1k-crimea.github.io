@@ -1,0 +1,30 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    background-color: @body-bg;
+    color: @text-color;
+    font-family: 'Roboto', san-serif;
+}
+
+h1 {
+	font-size: 26px;
+}
+.btn {
+	display: inline-block;
+	padding: 10px 25px;
+	color: @body-color;
+	border-radius: 5px;
+	background-color: @active-color;
+	text-decoration: none;
+	&:hover {
+		background-color: lighten(@active-color, 2%);
+	}
+}
+
+@import "_colors.less";
+@import "blocks/header.less";
+@import "blocks/left-sidebar.less";
+@import "blocks/content.less";
+@import "blocks/footer.less";
