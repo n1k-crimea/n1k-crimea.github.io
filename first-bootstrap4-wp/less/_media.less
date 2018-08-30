@@ -1,0 +1,37 @@
+@media (max-width: 767px) {
+	.top-nav__btn {
+		display: block;
+	}
+	.top-nav__menu {
+		flex-direction: column;
+		display: none;
+	}
+	.top-nav__menu li {
+		line-height: 2;
+	}
+	.top-nav__menu li a::after {
+		display: none;
+	}
+	.top-nav__menu__active {
+		display: flex;
+		border-top: 2px solid @active-color;
+	}
+
+	.left-sidebar__btn {
+		display: block;
+		margin-bottom: 0;
+	}
+
+	.left-sidebar__menu {
+		display: none;
+	}
+
+	.left-sidebar__menu__active {
+		display: block;
+		border-top: 2px solid @active-color;
+	}
+
+	.left-sidebar__object{
+		display: none;
+	}
+}

@@ -1,8 +1,8 @@
 .top-nav {
+	position: relative;
 	background-color: @body-color;
 	padding: 15px;
 	margin-top: 20px;
-
 	&__menu {
 		list-style: none;
 		display: flex;
@@ -32,4 +32,15 @@
 		}
 	}
 
+}
+//--------togle
+.top-nav__btn {
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	font-size: 22px;
+	position: absolute;
+	top:-40px;
+	right: 5%;
+	display: none;
 }
