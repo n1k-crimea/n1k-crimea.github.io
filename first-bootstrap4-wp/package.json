@@ -1,0 +1,20 @@
+{
+  "name": "verstka-za-2-chasa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.24.6",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^2.0.1",
+    "gulp-less": "^4.0.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
