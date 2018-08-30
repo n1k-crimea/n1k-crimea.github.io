@@ -80,7 +80,7 @@ h1 {
   min-height: 150px;
   max-height: 250px;
   background-color: #1a9bdc;
-  background-image: url("../../img/img.png");
+  background-image: url("../img/img.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -112,7 +112,7 @@ h1 {
 .object-item {
   background-color: #fff;
   height: 220px;
-  background-image: url("../../img/img.png");
+  background-image: url("../img/img.png");
   background-position: bottom 0 left 0;
   background-repeat: no-repeat;
 }
